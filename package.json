@@ -1,0 +1,16 @@
+{
+  "name": "resumeromi",
+  "version": "1.0.0",
+  "description": "Resume and Portofolio Romi Julianto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Romi Julianto",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.14.2"
+  }
+}
