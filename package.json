@@ -11,6 +11,16 @@
   "author": "Romi Julianto",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.14.2"
+    "fastify": "^3.14.2",
+    "fastify-static": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      ".gitignore", 
+      "*/node_modules"
+    ]
   }
 }
