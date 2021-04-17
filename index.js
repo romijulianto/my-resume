@@ -3,8 +3,6 @@ const fastify = require('fastify')({ logger: true });
 
 // Register Plugin
 fastify.register(require('fastify-static'), require("./config/static").public);
-fastify.register(require('fastify-static'), require("./config/static").assets);
-fastify.register(require('fastify-static'), require("./config/static").forms); 
 
 // Declare a route
 fastify.get('/', async (request, reply) => {
